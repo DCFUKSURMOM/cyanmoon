@@ -11,6 +11,6 @@
   <path d="m5.484 4.9912v10.045l4.0165-3.5157 4.0165 3.5157v-10.045a1.5062 1.5067 0 0 0-1.5062-1.5067h-5.0206a1.5062 1.5067 0 0 0-1.5062 1.5067z" fill="none" stroke="#359bde"/>
   <g id="active"/>
   <g  id="stripe" transform="matrix(1.0041 0 0 1.0045 -.038688 .97326)" stroke-width=".99571">
-    <path d="m6.5 3v9l3-2.5 3 2.5v-9" fill="none" opacity=".37" stroke="#fff" stroke-width=".99571"/>
+    <path d="m6.5 3v9l3-2.5 3 2.5v-9" fill="none" opacity=".37" stroke="#00ffff" stroke-width=".99571"/>
   </g>
 </svg>

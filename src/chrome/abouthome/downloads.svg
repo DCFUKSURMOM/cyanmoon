@@ -5,11 +5,11 @@
   <style>
     g {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1.0325;
     }
     #hihglighttext:target + g {
-      stroke: #fff;
+      stroke: #00ffff;
     }
     #highlight:target ~ g {
       stroke: #0082f0;

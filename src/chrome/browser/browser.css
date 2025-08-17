@@ -8,17 +8,17 @@
 
 :root {
   --tab-background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
-  --tab-border-color: rgb(64,64,64);
+  --tab-border-color: rgb(0,64,64);
   --tab-border-radius: 0px;
   --tab-box-shadow: none;
   --tab-hover-background: linear-gradient(rgba(0,0,0,.85), rgba(0,0,0,.85));
   --tab-hover-border: var(--tab-border-color);
-  --tab-pinned-background: linear-gradient(rgba(255,255,255,1) -8px, rgba(23,23,23,1), rgba(23,23,23,1));
+  --tab-pinned-background: linear-gradient(rgba(0,255,255,1) -8px, rgba(0,23,23,1), rgba(0,23,23,1));
   --tab-selected-background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,1));
   --tab-selected-border: var(--tab-border-color);
 
-  --toolbar-border: rgba(64,64,64,1);
-  --toolbar-highlight-top: rgba(32,32,32);
+  --toolbar-border: rgba(0,64,64,1);
+  --toolbar-highlight-top: rgba(0,32,32);
   --toolbar-highlight-bottom: var(--toolbar-highlight-top);
 
   --toolbarbutton-background-color: hsla(210,32%,93%,0);
@@ -32,7 +32,7 @@
   --toolbarbutton-inverted-image: url("chrome://browser/skin/Toolbar.svg#darktext");
 
   --urlbar-dropmarker-background: transparent;
-  --urlbar-dropmarker-box-shadow: -3px 0 0 -2px #D0D0D0;
+  --urlbar-dropmarker-box-shadow: -3px 0 0 -2px #00D0D0;
 
   --window-text-color: currentColor;
 }
@@ -42,20 +42,20 @@
   --tab-box-shadow: none;
   --tab-hover-background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
   --tab-selected-background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9));
-  --toolbar-highlight-top: rgba(5,5,5,0.9);
-  --toolbar-highlight-bottom: rgba(5,5,5,0.6);
+  --toolbar-highlight-top: rgba(0,5,5,0.9);
+  --toolbar-highlight-bottom: rgba(0,5,5,0.6);
 }
 
 :root:-moz-lwtheme-darktext {
   --tab-background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4));
   --tab-hover-background: linear-gradient(rgba(0,0,0,.8), rgba(0,0,0,.8));
   --tab-selected-background: linear-gradient(rgba(0,0,0,.9), rgba(0,0,0,.9));
-  --toolbar-highlight-top: rgba(250,250,250,0.9);
-  --toolbar-highlight-bottom: rgba(250,250,250,0.5);
+  --toolbar-highlight-top: rgba(0,250,250,0.9);
+  --toolbar-highlight-bottom: rgba(0,250,250,0.5);
 }
 
 #main-window:not(:-moz-lwtheme):after {
-  color: #fff !important;
+  color: #00ffff !important;
   text-shadow: none !important;
 }
 
@@ -75,7 +75,7 @@
   -moz-appearance: none;
   background-color: rgb(0,0,0); /*transparent;*/
   border-top: none;
-  color: #fff;
+  color: #00ffff;
 }
 
 #navigator-toolbox::after {
@@ -103,7 +103,7 @@
 #nav-bar + #customToolbars + #PersonalToolbar[collapsed=true] + #TabsToolbar[tabsontop=false]:last-child:not(:-moz-lwtheme) {
   background-color: rgb(0,0,0) !important; /*transparent !important;*/
   background-image: none !important;
-  color: #fff;
+  color: #00ffff;
   border-left-style: none !important;
   border-right-style: none !important;
 }
@@ -144,7 +144,7 @@
 }
 #navigator-toolbox[tabsontop=false] > #PersonalToolbar:not(:-moz-lwtheme) {
   margin-top: 2px;
-  border-top: 1px solid rgb(50,50,50);
+  border-top: 1px solid rgb(0,50,50);
 }
 
 #personal-bookmarks {
@@ -186,7 +186,7 @@
 #appmenu-popup {
   -moz-appearance: none;
   background: rgb(0,0,0);
-  border: 1px solid rgb(64,64,64);
+  border: 1px solid rgb(0,64,64);
 }
 #appmenuPrimaryPane {
   background-color: rgb(0,0,0);
@@ -208,7 +208,7 @@
   margin-bottom: 3px;
   margin-inline-start: 30px;
   padding: 0;
-  border-top: 1px solid #e1e1e1;
+  border-top: 1px solid #00e1e1;
   border-bottom: none;
 }
 
@@ -377,13 +377,13 @@ toolbarbutton.bookmark-item {
 
 toolbarbutton.bookmark-item:hover {
   background-color: rgb(0,0,0);
-  color: white;
+  color: #00ffff;
   text-shadow: none;
 }
 
 toolbarbutton.bookmark-item:hover:active {
   background-color: rgb(0,0,0);
-  color: white;
+  color: #00ffff;
   text-shadow: none;
 }
 
@@ -584,7 +584,7 @@ toolbar[mode=full] .toolbarbutton-1 > .toolbarbutton-menubutton-button {
 #TabsToolbar .toolbarbutton-1 > .toolbarbutton-menubutton-button:not([disabled]):hover,
 .tabbrowser-arrowscrollbox > .scrollbutton-up:not([disabled]):hover,
 .tabbrowser-arrowscrollbox > .scrollbutton-down:not([disabled]):hover {
-  background-image: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.5)),
+  background-image: linear-gradient(rgba(0,255,255,0), rgba(0,255,255,.5)),
                     linear-gradient(transparent, rgba(0,0,0,.25) 30%),
                     linear-gradient(transparent, rgba(0,0,0,.25) 30%);
   background-position: 1px -1px, 0 -1px, 100% -1px;
@@ -845,10 +845,10 @@ toolbar:not([brighttext]) #tabview-button {
   padding: 0px;
   background-clip: padding-box;
   border: none;
-  border-color: rgba(32,32,32,1);
+  border-color: rgba(0,32,32,1);
   border-radius: 0px;
   background-color: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
 }
 
 #urlbar {
@@ -859,13 +859,13 @@ toolbar:not([brighttext]) #tabview-button {
 #urlbar:-moz-lwtheme,
 .searchbar-textbox:-moz-lwtheme {
   background-color: rgba(0,0,0,.8);
-  border-color: rgba(64,64,64,.27) rgba(64,64,64,.2) rgba(64,64,64,.18);
-  color: #fff;
+  border-color: rgba(0,64,64,.27) rgba(0,64,64,.2) rgba(0,64,64,.18);
+  color: #00ffff;
 }
 
 html|*.urlbar-input:-moz-lwtheme:-moz-placeholder,
 .searchbar-textbox:-moz-lwtheme > .autocomplete-textbox-container > .textbox-input-box > html|*.textbox-input:-moz-placeholder {
-  color: #fff;
+  color: #00ffff;
 }
 
 #urlbar:-moz-lwtheme[focused="true"],
@@ -913,7 +913,7 @@ html|*.urlbar-input:-moz-lwtheme:-moz-placeholder,
 }
 
 #urlbar-display-box {
-  border-inline-end: 1px solid #AAA;
+  border-inline-end: 1px solid #00AAAA;
   margin-inline-end: 3px;
 }
 
@@ -1086,7 +1086,7 @@ window:not([chromehidden~=toolbar]) #navigator-toolbox[iconsize=large][mode=icon
 
 .ac-url-text,
 .ac-action-text {
-  color: #fff;
+  color: #00ffff;
 }
 
 
@@ -1274,12 +1274,12 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   border-top: none;
   border-bottom: none;
   background-color: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
 }
 
 .browserContainer > findbar {
   background-color: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
   text-shadow: none;
 }
 
@@ -1332,7 +1332,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
   border-radius: var(--tab-border-radius) var(--tab-border-radius) 0 0;
   box-shadow: var(--tab-box-shadow);
   margin-inline-start: -1px;
-  color: #fff;
+  color: #00ffff;
 }
 
 .tabs-newtab-button {
@@ -1367,7 +1367,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 
 .tabbrowser-tab[selected="true"] {
   background-image: var(--tab-selected-background);
-  border: gray 1px solid !important;
+  border: #00ffff 1px solid !important;
   border-bottom: none !important;
   margin-inline-end: 1px;
 }
@@ -1500,7 +1500,7 @@ richlistitem[type~="action"][actiontype="switchtab"] > .ac-url-box > .ac-action-
 .tab-icon-sound:-moz-lwtheme-darktext[soundplaying],
 .tab-icon-sound:-moz-lwtheme-darktext[muted],
 .tab-icon-sound:-moz-lwtheme-darktext[blocked] {
-  filter: url(chrome://browser/skin/filters.svg#fill) drop-shadow(1px 1px 1px white);
+  filter: url(chrome://browser/skin/filters.svg#fill) drop-shadow(1px 1px 1px #00ffff);
 }
 
 .tab-icon-sound:-moz-lwtheme-brighttext[soundplaying],
@@ -2169,7 +2169,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 .KUI-panel {
   -moz-appearance: none;
   background: rgba(0%,0%,0%,.9) url(chrome://browser/skin/KUI-background.png) repeat-x;
-  color: white;
+  color: #00ffff;
   border-style: none;
   border-radius: 20px;
 }
@@ -2203,7 +2203,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
   padding: 20px 10px 10px;
   font-weight: bold;
   background: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
 }
 
 .ctrlTab-favicon[src] {
@@ -2227,16 +2227,16 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 
 #ctrlTab-showAll:not(:focus) > * > .ctrlTab-preview-inner {
   padding: 10px;
-  background-color: rgba(255,255,255,.2);
+  background-color: rgba(0,255,255,.2);
   border-radius: .5em;
 }
 
 .ctrlTab-preview:focus > * > .ctrlTab-preview-inner {
-  color: white;
+  color: #00ffff;
   background-color: rgba(0,0,0,.6);
   text-shadow: none;
   padding: 8px;
-  border: 2px solid white;
+  border: 2px solid #00ffff;
   border-radius: .5em;
 }
 
@@ -2253,7 +2253,7 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
   -moz-appearance: none;
   border: none;
   background: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
 }
 
 #allTabs-meta {
@@ -2313,14 +2313,14 @@ toolbarbutton.bookmark-item[dragover="true"][open="true"] {
 #addon-bar,
 #FindToolbar {
   min-height: 20px;
-  border: solid rgb(75,75,75) !important;
+  border: solid rgb(0,75,75) !important;
   border-width: 1px 0 0 0 !important;
 }
 
 #addon-bar:not(:-moz-lwtheme),
 #FindToolbar:not(:-moz-lwtheme) {
   -moz-appearance: none;
-  color: #fff;
+  color: #00ffff;
 }
 
 #status-bar {
@@ -2358,10 +2358,10 @@ toolbar[mode="text"] #addonbar-closebutton > .toolbarbutton-icon {
 .statuspanel-label {
   margin: 0;
   padding: 2px 4px;
-  background: linear-gradient(white, #ddd);
-  border: 1px none #ccc;
+  background: linear-gradient(#00ffff, #00dddd);
+  border: 1px none #00cccc;
   border-top-style: solid;
-  color: #333;
+  color: #003333;
   text-shadow: none;
 }
 
@@ -2379,11 +2379,11 @@ toolbar[mode="text"] #addonbar-closebutton > .toolbarbutton-icon {
 
 #full-screen-warning-message {
   background-color: hsl(0,0%,15%);
-  color: white;
+  color: #00ffff;
   border-radius: 8px;
   margin-top: 30px;
   padding: 30px 50px;
-  box-shadow: 0 0 2px white;
+  box-shadow: 0 0 2px #00ffff;
 }
 
 #full-screen-warning-container[obscure-browser] {

@@ -5,12 +5,12 @@
   <style>
     g {
       fill: none;
-      stroke: #E6E6E6;
+      stroke: #00E6E6;
       stroke-width: 2;
     }
     #highlight:target + g {
-      stroke: #fff;
-      fill: #fff;
+      stroke: #00ffff;
+      fill: #00ffff;
     }
   </style>
   <g id="highlight"/>

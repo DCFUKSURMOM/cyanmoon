@@ -5,7 +5,7 @@
   <style>
     g {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1.0325;
     }
     #darktext:target + g {
@@ -16,7 +16,7 @@
       stroke: #0082f0;
     }
     #highlight:target ~ g > rect {
-      fill: #bcf5ff;
+      fill: #00f5ff;
     }
   </style>
   <g id="highlight"/>

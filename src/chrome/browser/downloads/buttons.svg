@@ -8,20 +8,20 @@
     }
     use {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1;
     }
     use[id$="normal"] {
       opacity: 0.6;
     }
     use[id="retry-active"] {
-      stroke: #128ED3;
+      stroke: #008ED3;
     }
     use[id="cancel-active"] {
-      stroke: #C62323;
+      stroke: #002323;
     }
     use[id="show-active"] {
-      stroke: #F5F500;
+      stroke: #00F5F5;
     }
   </style>
   <defs>

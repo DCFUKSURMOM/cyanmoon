@@ -16,7 +16,7 @@ menucaption,
 .splitmenu-menuitem {
   -moz-appearance: none;
   -moz-box-align: center;
-  color: #FFFFFF;
+  color: #00FFFF;
   font: menu;
   list-style-image: none;
   -moz-image-region: auto;
@@ -29,8 +29,8 @@ menuitem[default="true"] {
 menu[_moz-menuactive="true"],
 menuitem[_moz-menuactive="true"],
 .splitmenu-menuitem[_moz-menuactive="true"] {
-  color: #fff;
-  background-color: rgb(64,64,64);
+  color: #00ffff;
+  background-color: rgb(00,64,64);
 }
 
 menu[disabled="true"],
@@ -42,7 +42,7 @@ menucaption[disabled="true"] {
 
 menubar > menu {
   padding: 0px 4px;
-  color: #fff;
+  color: #00ffff;
 }
 
 menubar:-moz-lwtheme > menu {
@@ -55,11 +55,11 @@ menubar:-moz-lwtheme > menu:not([open="true"]) {
 }
 
 menubar > menu[_moz-menuactive="true"]:not([open]):not([disabled="true"]):not(:-moz-lwtheme) {
-  color: #fff;
+  color: #00ffff;
 }
 
 menubar > menu[open] {
-  color: #fff;
+  color: #00ffff;
   background-color: rgb(0,0,0);
 }
 menuitem.spell-suggestion {
@@ -192,7 +192,7 @@ menuitem[checked="true"][type="radio"][disabled="true"][_moz-menuactive="true"] 
 
 menuseparator {
   margin: 2px 3px;
-  border-top: 1px solid rgb(75,75,75);
+  border-top: 1px solid rgb(0,75,75);
 }
 
 menuseparator[collapsed="true"] {
@@ -202,7 +202,7 @@ menuseparator[collapsed="true"] {
 menulist > menupopup > menuseparator,
 .menulist-menupopup > menuseparator {
   padding: 6px 0 5px 0;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #00FFFF;
   border-bottom: none;
 }
 

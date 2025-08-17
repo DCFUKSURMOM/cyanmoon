@@ -18,7 +18,7 @@ toolbarbutton {
   border: 1px solid transparent;
   padding: 3px;
   background-color: transparent;
-  color: #fff;
+  color: #00ffff;
 }
 
 .toolbarbutton-icon[label]:not([label=""]),
@@ -68,8 +68,8 @@ toolbarbutton[checked="true"]:not([disabled="true"]) {
   padding-bottom: 2px;
   padding-inline-start: 4px;
   padding-inline-end: 2px;
-  background-color: rgba(64,64,64,0.5);
-  color: #fff;
+  background-color: rgba(0,64,64,0.5);
+  color: #00ffff;
 }
 
 @media (-moz-windows-default-theme) {
@@ -137,11 +137,11 @@ toolbarbutton[type="menu-button"][disabled="true"]:hover:active {
 }
 
 .toolbarbutton-badge {
-  background-color: rgb(1,1,1);
+  background-color: rgb(0,1,1);
   font-size: 10px;
   font-weight: bold;
   padding: 0 2px 1px;
-  color: #fff;
+  color: #00ffff;
   border-radius: 2px;
   box-shadow: 0 1px 0 hsla(0, 100%, 100%, .2) inset,
               0 -1px 0 hsla(0, 0%, 0%, .1) inset,

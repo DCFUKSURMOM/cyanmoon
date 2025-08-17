@@ -8,13 +8,13 @@
     }
     use {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
     }
     use[id="active"] {
-      stroke: #00AEFF;
+      stroke: #00ffff;
     }
     use[id="darktext"] {
-      stroke: #000;
+      stroke: #00ffff;
     }
   </style>
   <defs>

@@ -47,7 +47,7 @@ treechildren::-moz-tree-row(current, focus) {
 }
 
 treechildren::-moz-tree-row(selected, current, focus) {
-  border: 1px dotted #F3D982;
+  border: 1px dotted #00D982;
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-row,
@@ -97,11 +97,11 @@ tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, current, focus)
 }
 
 tree[seltype="cell"] > treechildren::-moz-tree-cell(active, selected, current, focus) {
-  border: 1px dotted #C0C0C0;
+  border: 1px dotted #00C0C0;
 }
 
 tree[seltype="text"] > treechildren::-moz-tree-cell-text(active, selected, current, focus) {
-  border: 1px dotted #C0C0C0;
+  border: 1px dotted #00C0C0;
 }
 
 /* ::::: tree separator ::::: */
@@ -326,34 +326,34 @@ treechildren:-moz-locale-dir(rtl)::-moz-tree-twisty(hover, open) {
 @media (-moz-windows-default-theme) {
   treechildren {
     --treechildren-outline: none;
-    --treechildren-2ndBorderColor: rgba(255,255,255,.4);
-    --treechildren-selectedColor: rgb(217,217,217);
-    --treechildren-focusColor: rgb(123,195,255);
-    --treechildren-selectedFocusColor: rgb(205,232,255);
-    --treechildren-currentColor: rgb(125,162,206);
-    --treechildren-hoverColor: rgb(229,243,255);
+    --treechildren-2ndBorderColor: rgba(0,255,255,.4);
+    --treechildren-selectedColor: rgb(0,217,217);
+    --treechildren-focusColor: rgb(0,195,195);
+    --treechildren-selectedFocusColor: rgb(0,255,255);
+    --treechildren-currentColor: rgb(0,206,206);
+    --treechildren-hoverColor: rgb(0,243,255);
     --treechildren-selectedBorder: var(--treechildren-selectedColor);
-    --treechildren-selectedBottomBorder: rgb(204,204,204);
-    --treechildren-selectedImage: linear-gradient(rgb(217,217,217), rgb(217,217,217));
+    --treechildren-selectedBottomBorder: rgb(0,204,204);
+    --treechildren-selectedImage: linear-gradient(rgb(0,217,217), rgb(0,217,217));
     --treechildren-selectedBackground: transparent;
     --treechildren-currentFocusBorder: var(--treechildren-focusColor);
     --treechildren-currentFocusBottomBorder: var(--treechildren-focusColor);
     --treechildren-selectedFocusBorder: var(--treechildren-selectedFocusColor);
-    --treechildren-selectedFocusBottomBorder: rgb(165,214,255);
+    --treechildren-selectedFocusBottomBorder: rgb(0,214,255);
     --treechildren-selectedFocusImage: none;
     --treechildren-selectedFocusBackground: var(--treechildren-selectedFocusColor);
     --treechildren-selectedFocusCurrentBorder: var(--treechildren-focusColor);
     --treechildren-selectedFocusCurrentBottomBorder: var(--treechildren-focusColor);
-    --treechildren-selectedFocusCurrentImage: linear-gradient(rgb(205,232,255), rgb(205,232,255));
+    --treechildren-selectedFocusCurrentImage: linear-gradient(rgb(0,232,255), rgb(0,232,255));
     --treechildren-hoverBorder: var(--treechildren-hoverColor);
     --treechildren-hoverBottomBorder: var(--treechildren-hoverColor);
-    --treechildren-hoverImage: linear-gradient(rgb(229,243,255), rgb(229,243,255));
+    --treechildren-hoverImage: linear-gradient(rgb(0,243,255), rgb(0,243,255));
     --treechildren-hoverCurrentBorder: var(--treechildren-currentColor);
     --treechildren-hoverCurrentBottomBorder: var(--treechildren-currentColor);
-    --treechildren-hoverCurrentImage: linear-gradient(rgba(131,183,249,.16), rgba(131,183,249,.16));
+    --treechildren-hoverCurrentImage: linear-gradient(rgba(0,183,249,.16), rgba(0,183,249,.16));
     --treechildren-hoverSelectedBorder: var(--treechildren-focusColor);
     --treechildren-hoverSelectedBottomBorder: var(--treechildren-focusColor);
-    --treechildren-hoverSelectedImage: linear-gradient(rgb(205,232,255), rgb(205,232,255));
+    --treechildren-hoverSelectedImage: linear-gradient(rgb(0,232,255), rgb(0,232,255));
   }
 
   treechildren:not(.autocomplete-treebody)::-moz-tree-row {
@@ -462,28 +462,28 @@ treechildren:-moz-locale-dir(rtl)::-moz-tree-twisty(hover, open) {
          (-moz-os-version: windows-win7) {
     treechildren {
       --treechildren-outline: 1px solid var(--treechildren-2ndBorderColor);
-      --treechildren-2ndBottomBorderColor: rgba(255,255,255,.6);
+      --treechildren-2ndBottomBorderColor: rgba(0,255,255,.6);
       --treechildren-selectedBorder: var(--treechildren-selectedColor) var(--treechildren-2ndBorderColor);
       --treechildren-selectedBottomBorder: var(--treechildren-selectedColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-selectedImage: linear-gradient(rgba(190,190,190,.1), rgba(190,190,190,.4));
+      --treechildren-selectedImage: linear-gradient(rgba(0,190,190,.1), rgba(0,190,190,.4));
       --treechildren-currentFocusBorder: var(--treechildren-currentColor) var(--treechildren-2ndBorderColor);
       --treechildren-currentFocusBottomBorder: var(--treechildren-currentColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-selectedFocusBorder: rgb(132,172,221) var(--treechildren-2ndBorderColor);
+      --treechildren-selectedFocusBorder: rgb(0,172,221) var(--treechildren-2ndBorderColor);
       --treechildren-selectedFocusBottomBorder: var(--treechildren-currentColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-selectedFocusImage: linear-gradient(rgba(131,183,249,.16), rgba(131,183,249,.375));
+      --treechildren-selectedFocusImage: linear-gradient(rgba(0,183,249,.16), rgba(0,183,249,.375));
       --treechildren-selectedFocusBackground: transparent;
       --treechildren-selectedFocusCurrentBorder: var(--treechildren-currentColor) var(--treechildren-2ndBorderColor);
       --treechildren-selectedFocusCurrentBottomBorder: var(--treechildren-currentColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-selectedFocusCurrentImage: linear-gradient(rgba(131,183,249,.28), rgba(131,183,249,.5));
-      --treechildren-hoverBorder: rgb(184,214,251) var(--treechildren-2ndBorderColor);
-      --treechildren-hoverBottomBorder: rgb(184,214,251) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-hoverImage: linear-gradient(rgba(131,183,249,.05), rgba(131,183,249,.16));
+      --treechildren-selectedFocusCurrentImage: linear-gradient(rgba(0,183,249,.28), rgba(0,183,249,.5));
+      --treechildren-hoverBorder: rgb(0,214,251) var(--treechildren-2ndBorderColor);
+      --treechildren-hoverBottomBorder: rgb(0,214,251) var(--treechildren-2ndBottomBorderColor);
+      --treechildren-hoverImage: linear-gradient(rgba(0,183,249,.05), rgba(0,183,249,.16));
       --treechildren-hoverCurrentBorder: var(--treechildren-currentColor) var(--treechildren-2ndBorderColor);
       --treechildren-hoverCurrentBottomBorder: var(--treechildren-currentColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-hoverCurrentImage: linear-gradient(rgba(131,183,249,.05), rgba(131,183,249,.16));
+      --treechildren-hoverCurrentImage: linear-gradient(rgba(0,183,249,.05), rgba(0,183,249,.16));
       --treechildren-hoverSelectedBorder: var(--treechildren-currentColor) var(--treechildren-2ndBorderColor);
       --treechildren-hoverSelectedBottomBorder: var(--treechildren-currentColor) var(--treechildren-2ndBottomBorderColor);
-      --treechildren-hoverSelectedImage: linear-gradient(rgba(131,183,249,.28), rgba(131,183,249,.5));
+      --treechildren-hoverSelectedImage: linear-gradient(rgba(0,183,249,.28), rgba(0,183,249,.5));
     }
 
     treechildren:not(.autocomplete-treebody)::-moz-tree-row {
@@ -498,22 +498,22 @@ treechildren:-moz-locale-dir(rtl)::-moz-tree-twisty(hover, open) {
       --treechildren-outline: 1px solid var(--treechildren-2ndBorderColor);
       --treechildren-selectedBorder: var(--treechildren-selectedColor);
       --treechildren-selectedBottomBorder: var(--treechildren-selectedColor);
-      --treechildren-selectedImage: linear-gradient(rgba(190,190,190,.4), rgba(190,190,190,.4));
+      --treechildren-selectedImage: linear-gradient(rgba(0,190,190,.4), rgba(0,190,190,.4));
       --treechildren-currentFocusBorder: var(--treechildren-currentColor);
       --treechildren-currentFocusBottomBorder: var(--treechildren-currentColor);
-      --treechildren-selectedFocusBorder: rgb(132,172,221) var(--treechildren-2ndBorderColor);
+      --treechildren-selectedFocusBorder: rgb(0,172,221) var(--treechildren-2ndBorderColor);
       --treechildren-selectedFocusBottomBorder: var(--treechildren-currentColor);
-      --treechildren-selectedFocusImage: linear-gradient(rgba(131,183,249,.375), rgba(131,183,249,.375));
+      --treechildren-selectedFocusImage: linear-gradient(rgba(0,183,249,.375), rgba(0,183,249,.375));
       --treechildren-selectedFocusBackground: transparent;
       --treechildren-selectedFocusCurrentBorder: var(--treechildren-currentColor);
       --treechildren-selectedFocusCurrentBottomBorder: var(--treechildren-currentColor);
-      --treechildren-selectedFocusCurrentImage: linear-gradient(rgba(131,183,249,.5), rgba(131,183,249,.5));
-      --treechildren-hoverBorder: rgb(184,214,251);
-      --treechildren-hoverBottomBorder: rgb(184,214,251);
-      --treechildren-hoverImage: linear-gradient(rgba(131,183,249,.16), rgba(131,183,249,.16));
+      --treechildren-selectedFocusCurrentImage: linear-gradient(rgba(0,183,249,.5), rgba(0,183,249,.5));
+      --treechildren-hoverBorder: rgb(0,214,251);
+      --treechildren-hoverBottomBorder: rgb(0,214,251);
+      --treechildren-hoverImage: linear-gradient(rgba(0,183,249,.16), rgba(0,183,249,.16));
       --treechildren-hoverSelectedBorder: var(--treechildren-currentColor);
       --treechildren-hoverSelectedBottomBorder: var(--treechildren-currentColor);
-      --treechildren-hoverSelectedImage: linear-gradient(rgba(131,183,249,.5), rgba(131,183,249,.5));
+      --treechildren-hoverSelectedImage: linear-gradient(rgba(0,183,249,.5), rgba(0,183,249,.5));
     }
   }
 }

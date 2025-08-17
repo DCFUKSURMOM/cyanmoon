@@ -10,7 +10,7 @@
 
 #downloadsRichListBox > richlistitem.download {
   height: 6em;
-  border-bottom: 1px solid rgb(64,64,64);
+  border-bottom: 1px solid rgb(0,64,64);
 }
 
 .downloadTypeIcon {
@@ -80,7 +80,7 @@
 }
 
 #downloadsRichListBox > richlistitem.download[selected] {
-  color: #fff;
+  color: #00ffff;
   background-color: rgb(0,0,0);
 }
 
@@ -91,5 +91,5 @@
 }
 
 #downloadsWindow > #downloadsRichListBox {
-  -moz-border-bottom-colors: rgb(128, 128, 128) transparent !important;
+  -moz-border-bottom-colors: rgb(0, 128, 128) transparent !important;
 }

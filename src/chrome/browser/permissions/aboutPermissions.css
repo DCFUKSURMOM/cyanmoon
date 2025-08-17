@@ -29,13 +29,13 @@
 
 #sites-list {
   -moz-appearance: none;
-  border: 1px solid rgb(75, 75, 75);
+  border: 1px solid rgb(0, 75, 75);
   margin: 5px 0 0 0;
 }
 
 .site {
   padding: 4px;
-  border-bottom: 1px solid rgb(50, 50, 50);
+  border-bottom: 1px solid rgb(0, 50, 50);
 }
 
 .site-favicon {

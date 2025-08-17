@@ -4,7 +4,7 @@
     <style type="text/css"><![CDATA[
       /* Glyph Styles */
       .glyphShape-style {
-        fill: #737373;
+        fill: #007373;
       }
       .glyphShape-style-hover-gear {
         fill: #00aeff;
@@ -13,14 +13,14 @@
         fill: #00aeff;
       }
       .glyphShape-style-hover-delete {
-        fill: #666;
+        fill: #006666;
       }
       .glyphShape-style-hover-active {
-        fill: #999;
+        fill: #009999;
       }
       /* Circle Background Styles */
       .glyphShape-style-circle {
-        fill: #fff;
+        fill: #00ffff;
       }
       .glyphShape-style-circle-dropshadow {
         fill: #000;
@@ -34,7 +34,7 @@
         fill-opacity: .5;
       }
       .active-grey .glyphShape-style-circle {
-        fill: #f0f0f0;
+        fill: #00f0f0;
       }
       ]]></style>
     <filter id="filter-shadow-drop">
@@ -113,7 +113,7 @@
   </g>
   <g id="icon-pin-hover" class="default-transparent" transform="translate(96)" filter="url(#b)">
     <use class="glyphShape-style-circle-dropshadow" style="" xlink:href="#glyphShape-circle"/>
-    <use class="glyphShape-style-circle" fill="#ffffff" xlink:href="#glyphShape-circle"/>
+    <use class="glyphShape-style-circle" fill="#00ffff" xlink:href="#glyphShape-circle"/>
     <use class="glyphShape-style-hover-pin" style="" xlink:href="#glyphShape-pin"/>
   </g>
   <g id="icon-pin-hover-active" class="active-grey" transform="translate(128)" filter="url(#a)">

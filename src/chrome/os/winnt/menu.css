@@ -16,7 +16,7 @@ menucaption,
 .splitmenu-menuitem {
   -moz-appearance: none;
   -moz-box-align: center;
-  color: #FFFFFF;
+  color: #00FFFF;
   font: menu;
   list-style-image: none;
   -moz-image-region: auto;
@@ -135,13 +135,13 @@ menubar > menu:-moz-lwtheme:not([disabled="true"]) {
 }
 
 menubar > menu:-moz-lwtheme[_moz-menuactive="true"]:not([disabled="true"]) {
-  background-color: rgb(64,64,64);
-  color: #fff !important;
+  background-color: rgb(0,64,64);
+  color: #00ffff !important;
   text-shadow: none;
 }
 
 menubar > menu:-moz-window-inactive {
-  color: rgb(173,173,173);
+  color: rgb(0,173,173);
 }
 
 /* ..... internal content .... */
@@ -166,8 +166,8 @@ menupopup > menucaption {
 menu[_moz-menuactive="true"],
 menuitem[_moz-menuactive="true"],
 .splitmenu-menuitem[_moz-menuactive="true"] {
-  background-color: rgb(64,64,64) !important;
-  color: #fff !important;
+  background-color: rgb(0,64,64) !important;
+  color: #00ffff !important;
 }
 
 /* ::::: menu/menuitems in menulist popups ::::: */
@@ -180,7 +180,7 @@ menulist > menupopup > menu {
   padding: 1px 5px;
   max-width: none;
   font: message-box;
-  color: #FFFFFF;
+  color: #00FFFF;
 }
 
 menulist > menupopup > menuitem > .menu-iconic-left,
@@ -198,9 +198,9 @@ menulist > menupopup > menu > label {
 }
 
 menulist:-moz-focusring > menupopup > menuitem[_moz-menuactive="true"] {
-  border: 1px dotted rgb(64,64,64);
-  background-color: rgb(64,64,64);
-  color: #fff;
+  border: 1px dotted rgb(0,64,64);
+  background-color: rgb(0,64,64);
+  color: #00ffff;
 }
 
 menuitem[checked="true"] {
@@ -227,7 +227,7 @@ menuitem[checked="true"][type="radio"][disabled="true"][_moz-menuactive="true"] 
 
 menuseparator {
   margin: 2px 3px;
-  border-top: 1px solid rgb(64,64,64);
+  border-top: 1px solid rgb(0,64,64);
 }
 
 menuseparator[collapsed="true"] {
@@ -236,7 +236,7 @@ menuseparator[collapsed="true"] {
 
 menulist > menupopup > menuseparator {
   padding: 6px 0 5px 0;
-  border-top: 1px solid #FFFFFF;
+  border-top: 1px solid #00FFFF;
   border-bottom: none;
 }
 

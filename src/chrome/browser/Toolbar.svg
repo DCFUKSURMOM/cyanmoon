@@ -11,7 +11,7 @@
       display: none;
     }
     use[id="toolbar"] {
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1.0325;
     }
     use[id="darktext"] {

@@ -7,7 +7,7 @@ toolbox {
   background-color: rgb(0,0,0);
   border-top: 1px solid;
   -moz-border-top-colors: rgb(64,64,64);
-  color: #fff;
+  color: #00ffff;
 }
 
 toolbox:-moz-lwtheme {
@@ -20,26 +20,26 @@ toolbox:-moz-lwtheme {
 
 toolbar, menubar {
   -moz-appearance: none;
-  color: #fff;
+  color: #00ffff;
 }
 
 toolbar {
   background-color: rgb(0,0,0);
   min-width: 1px;
   min-height: 19px;
-  border-top: 1px solid rgb(64,64,64);
-  border-bottom: 1px solid rgb(64,64,64);
+  border-top: 1px solid rgb(0,64,64);
+  border-bottom: 1px solid rgb(0,64,64);
 }
 
 toolbar:first-child, menubar {
   min-width: 1px;
-  border-bottom: 1px solid rgb(75,75,75);
+  border-bottom: 1px solid rgb(0,75,75);
   border-top: 0px !important;
 }
 
 menubar, toolbar[type="menubar"] {
   -moz-appearance: none;
-  color: #fff;
+  color: #00ffff;
   min-width: 1px;
   min-height: 20px;
   padding: 1px 0px;

@@ -8,7 +8,7 @@ html {
 }
 
 #feedBody {
-  border: 1px solid rgb(64,64,64);
+  border: 1px solid rgb(0,64,64);
   border-radius: 10px;
   padding: 3em;
   padding-inline-start: 30px;
@@ -17,7 +17,7 @@ html {
 }
 
 #feedHeaderContainer {
-  border: 1px solid rgb(64,64,64);
+  border: 1px solid rgb(0,64,64);
   border-radius: 10px;
   margin: -4em auto 0 auto;
   background-color: rgb(0,0,0);
@@ -30,7 +30,7 @@ html {
   margin-inline-end: 1em;
   padding-inline-start: 2.9em;
   font-size: 110%;
-  color: #fff;
+  color: #00ffff;
 }
 
 #feedIntroText {
@@ -71,13 +71,13 @@ html {
 body {
   margin: 0;
   padding: 0 3em;
-  color: #fff;
+  color: #00ffff;
   font: message-box;
 }
 
 h1 {
   font-size: 160%;
-  border-bottom: 1px solid rgb(64,64,64);
+  border-bottom: 1px solid rgb(0,64,64);
   margin: 0 0 .2em 0;
 }
 
@@ -121,7 +121,7 @@ a[href] img {
  
 .link,
 a {
-  color: #fff;
+  color: #00ffff;
   text-decoration: underline;
   cursor: pointer;
 }
@@ -130,7 +130,7 @@ a {
 .link:hover:active,
 a:hover,
 a:hover:active {
-  color: rgb(255,255,255);
+  color: rgb(0,255,255);
 }
 
 .lastUpdated {
@@ -145,7 +145,7 @@ a:hover:active {
 }
 
 .enclosures {
-  border: rgb(64,64,64);
+  border: rgb(0,64,64);
   padding: 1em;
   margin: 1em auto;
   background: rgb(0,0,0);

@@ -45,18 +45,18 @@ scrollbarbutton {
 
 thumb {
   border: 1px solid;
-  -moz-border-top-colors: rgb(64,64,64);
-  -moz-border-right-colors: rgb(64,64,64);
-  -moz-border-bottom-colors: rgb(64,64,64);
-  -moz-border-left-colors: rgb(64,64,64);
+  -moz-border-top-colors: rgb(0,64,64);
+  -moz-border-right-colors: rgb(0,64,64);
+  -moz-border-bottom-colors: rgb(0,64,64);
+  -moz-border-left-colors: rgb(0,64,64);
 }
 
 thumb:hover {
-  background-color: rgb(1,1,1);
+  background-color: rgb(0,1,1);
 }
 
 thumb:active {
-  background-color: rgb(2,2,2);
+  background-color: rgb(0,2,2);
 }
 
 /* ::::: slider - a thumb is inside  ::::: */
@@ -88,7 +88,7 @@ scrollbarbutton {
 }
 
 scrollbarbutton:hover:active, scrollbarbutton[active="true"] {
-  background-color: rgb(1,1,1);
+  background-color: rgb(0,1,1);
 }
 
 scrollbar[orient="vertical"] > scrollbarbutton {
@@ -120,7 +120,7 @@ scrollbarbutton[type="increment"] {
 
 scrollbarbutton[type="increment"][disabled="true"] {
   background-image: url("chrome://global/skin/arrow/arrow-h.svg#rit-dis");
-  background-color: rgb(62,62,62);
+  background-color: rgb(0,62,62);
 }
 
 scrollbar[orient="vertical"] > scrollbarbutton[type="increment"] {
@@ -183,18 +183,18 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
   
   html|div thumb {
     border: 1px solid;
-    -moz-border-top-colors: rgb(64,64,64);
-    -moz-border-right-colors: rgb(64,64,64);
-    -moz-border-bottom-colors: rgb(64,64,64);
-    -moz-border-left-colors: rgb(64,64,64);
+    -moz-border-top-colors: rgb(0,64,64);
+    -moz-border-right-colors: rgb(0,64,64);
+    -moz-border-bottom-colors: rgb(0,64,64);
+    -moz-border-left-colors: rgb(0,64,64);
   } 
   
   html|div thumb:hover {
-	background-color: rgb(1,1,1);
+	background-color: rgb(0,1,1);
   }
   
   html|div thumb:active {
-    background-color: rgb(2,2,2);
+    background-color: rgb(0,2,2);
   }
 
   /* ::::: thumb (horizontal) ::::: */
@@ -217,7 +217,7 @@ scrollbar[orient="vertical"] > scrollbarbutton[type="decrement"][disabled="true"
   }
 
   html|div scrollbarbutton:hover:active, html|div scrollbarbutton[active="true"] {
-    background-color: rgb(1,1,1);
+    background-color: rgb(0,1,1);
   }
 
   /* ..... increment .... */

@@ -5,7 +5,7 @@
   <style>
     g {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1.0325;
     }
     #darktext:target + g {

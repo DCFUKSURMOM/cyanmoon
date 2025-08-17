@@ -15,12 +15,12 @@ menulist {
   -moz-appearance: none;
   margin: 2px 4px;
   border: 1px solid;
-  -moz-border-top-colors: rgb(64,64,64);
-  -moz-border-right-colors: rgb(64,64,64);
-  -moz-border-bottom-colors: rgb(64,64,64);
-  -moz-border-left-colors: rgb(64,64,64);
+  -moz-border-top-colors: rgb(0,64,64);
+  -moz-border-right-colors: rgb(0,64,64);
+  -moz-border-bottom-colors: rgb(0,64,64);
+  -moz-border-left-colors: rgb(0,64,64);
   background-color: rgb(0,0,0);
-  color: #fff;
+  color: #00ffff;
   text-shadow: none;
 }
 
@@ -51,11 +51,11 @@ menulist {
 }
 
 menulist:hover:not(:active):not([disabled=true]) {
-  background-color: rgb(64,64,64);
+  background-color: rgb(0,64,64);
 }
 
 menulist:hover:active:not([disabled=true]) {
-  background-color: rgb(1,1,1);
+  background-color: rgb(0,1,1);
 }
 
 /* ..... dropmarker ..... */
@@ -80,12 +80,12 @@ menulist:hover:active > .menulist-dropmarker {
 /* ..... focused state ..... */
 
 menulist:focus:not([open="true"]) > .menulist-label-box {
-  background-color: rgb(1,1,1);
-  color: #fff;
+  background-color: rgb(0,1,1);
+  color: #00ffff;
 }
 
 menulist:-moz-focusring:not([open="true"]) > .menulist-label-box {
-  border: 1px dotted #F5DB95;
+  border: 1px dotted #00DB95;
 }
 
 /* ..... disabled state ..... */
@@ -110,7 +110,7 @@ html|*.menulist-editable-input {
   padding: 0px !important;
   background: inherit;
   font: inherit;
-  color: #fff;
+  color: #00ffff;
 }
 
 @media (-moz-windows-default-theme) {

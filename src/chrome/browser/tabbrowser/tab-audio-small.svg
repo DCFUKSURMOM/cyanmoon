@@ -12,11 +12,11 @@
       fill: #262626;
     }
     .icon > .outline {
-      fill: #fff;
+      fill: #00ffff;
     }
 
     .icon.white {
-      fill: #fff;
+      fill: #00ffff;
     }
     .icon.white > .outline {
       fill: #000;

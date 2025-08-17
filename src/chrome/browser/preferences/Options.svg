@@ -12,7 +12,7 @@
     }
     use {
       fill: none;
-      stroke: #fff;
+      stroke: #00ffff;
       stroke-width: 1;
     }
   </style>

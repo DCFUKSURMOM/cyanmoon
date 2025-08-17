@@ -12,14 +12,14 @@
     }
     use {
       stroke-width: 0;
-      fill: #e5e5e5;
+      fill: #00e5e5;
     }
     g[id$="inverted"] use {
-      fill: #333;
+      fill: #005555;
     }
     g .glow {
       stroke-width: 0;
-      fill: #fff;
+      fill: #00ffff;
       filter: url(#blur-filter);
       opacity: .28;
     }
