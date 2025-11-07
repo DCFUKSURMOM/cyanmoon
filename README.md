@@ -1,4 +1,4 @@
-# Black Moon
+# Cyan Moon
 ![Preview](preview.png) (Font is Servail's [CatseyeClearCode](https://github.com/Servail/fonts))
 
 Black minimalistic palemoon theme with cyan accents, based on Servail's [blackmoon](https://github.com/Servail/blackmoon).
